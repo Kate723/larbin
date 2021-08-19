@@ -1,24 +1,23 @@
-#Larbin Web Crawler
+# Larbin Web Crawler
 
 [![Build Status](https://travis-ci.org/ictxiangxin/larbin.svg?branch=master)](https://travis-ci.org/ictxiangxin/larbin)
 
-[简体中文版](/README.md) |
-[Documentation](/doc/index-en.md)
+[简体中文版](/README.md) |[Documentation](/doc/index-en.md)
 
 Version: 2.6.5
 
 Larbin is a web crawler and stop develop, the least version is 2.6.3.
 We will continue develop this nice software and open the source on Github.
 
-##Snapshot:
+## Snapshot:
 
-###状态界面
+### 状态界面
 ![State](http://raw.github.com/ictxiangxin/larbin/master/doc/image/readme/state.jpg)
 
 ###图表界面
 ![Histogram](http://raw.github.com/ictxiangxin/larbin/master/doc/image/readme/histogram.jpg)
 
-##Table of content :
+## Table of content :
 
 * [Compiling](#compiling)
 * [Configuring](#configuring)
@@ -27,7 +26,7 @@ We will continue develop this nice software and open the source on Github.
 * [TODO](#todo)
 * [Contact](#contact)
 
-###Compiling
+### Compiling
 
 New version larbin use cmake to build, and larbin wrote by C and C++, make sure that your system have been installed cmake and compiler.
 
@@ -42,7 +41,7 @@ If you use SUSE:
 You also need to check that you have installed g++, if not, on Debian/Ubuntu class OS, you can use next command to install it:
 ```bash
 > sudo apt-get install g++
-``` 
+```
 If you use SUSE:
 ```bash
 > sudo zypper in gcc-g++
@@ -62,7 +61,7 @@ If you want to make sure your larbin is OK, run:
 > make test
 ```
 
-###Configuring
+### Configuring
 
 See larbin.conf. Please be sure to specify your mail.
 
@@ -74,7 +73,7 @@ If you want to use chinese configure file, please see larbin-cn.conf.
 
 There is also some documentation in the doc directory in html format.
 
-###Running
+### Running
 
 Be sure you did the configuration
 
@@ -92,7 +91,7 @@ If you write a new configure file, then you also need set the configure filename
 
 By default, to see how it works, visit http://localhost:8081/
 
-###Platforms
+### Platforms
 
 Larbin has mainly been developped under Linux.
 
@@ -101,12 +100,12 @@ I've tested larbin with success on Linux and freeBSD.
 It probably won't compile right out of the box on any other platform,
 but i'll work on it for future versions. Please report success or failure on any platform.
 
-###TODO
+### TODO
 
 * First, I need to reconstruct the source code.
 * Support javascript, this is a very big project.
 
-###Contact
+### Contact
 
 URL: https://github.com/ictxiangxin/larbin
 

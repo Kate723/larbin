@@ -1,10 +1,10 @@
-#Larbin Documentation
+# Larbin Documentation
 
-##Contents
+## Contents
 
 * [larbin.conf](#larbin.conf)
 
-###larbin.conf
+### larbin.conf
 
 larbin.conf is the configure file of larbin, it will tell larbin how to work and working for what.
 

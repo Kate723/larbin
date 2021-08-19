@@ -1,11 +1,11 @@
-#Larbin文档
+# Larbin文档
 
-##目录
+## 目录
 
 * [larbin.conf简介](#larbin.conf简介)
 * [larbin.conf详细配置](/doc/configure.md)
 
-###larbin.conf简介
+### larbin.conf简介
 
 larbin.conf是larbin的配置文件，由它控制larbin将如何工作以及做什么工作。
 

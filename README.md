@@ -1,24 +1,23 @@
-#Larbin网络爬虫
+# Larbin网络爬虫
 
 [![Build Status](https://travis-ci.org/ictxiangxin/larbin.svg?branch=master)](https://travis-ci.org/ictxiangxin/larbin)
 
-[See the English edition](/README-en.md) |
-[文档](/doc/index.md)
+[See the English edition](/README-en.md) |[文档](/doc/index.md)
 
 版本：2.6.5
 
 Larbin是一个网络爬虫，但是目前已经停止开发，最终的版本是2.6.3。
 我将继续开发这一优秀的软件，并在Github上开放源代码。
 
-##截图展示：
+## 截图展示：
 
-###状态界面
+### 状态界面
 ![状态界面](http://raw.github.com/ictxiangxin/larbin/master/doc/image/readme/state.jpg)
 
 ###图表界面
 ![图表界面](http://raw.github.com/ictxiangxin/larbin/master/doc/image/readme/histogram.jpg)
 
-##内容提要：
+## 内容提要：
 
 * [编译Larbin](#编译larbin)
 * [配置Larbin](#配置larbin)
@@ -27,7 +26,7 @@ Larbin是一个网络爬虫，但是目前已经停止开发，最终的版本�
 * [计划开发](#计划开发)
 * [联系我](#联系我)
 
-###编译Larbin
+### 编译Larbin
 
 新版larbin将使用cmake来构建，使用c和c++两种语言，请确保系统中已经安装了cmake以及编译器。
 
@@ -63,7 +62,7 @@ Larbin是一个网络爬虫，但是目前已经停止开发，最终的版本�
 ```
 现在，larbin已经构建完成并可以使用了。
 
-###配置Larbin
+### 配置Larbin
 
 配置larbin.conf。确保正确修改为你的Email地址。
 
@@ -75,7 +74,7 @@ Larbin是一个网络爬虫，但是目前已经停止开发，最终的版本�
 
 在doc文件夹下，有Larbin的html格式的详细文档。
 
-###运行Larbin
+### 运行Larbin
 
 确保你已经完成配置，然后运行：
 
@@ -93,7 +92,7 @@ Larbin是一个网络爬虫，但是目前已经停止开发，最终的版本�
 
 默认情况下，查看它的工作情况，访问http://localhost:8081/
 
-###运行环境
+### 运行环境
 
 Larbin主要在Linux下进行开发。
 
@@ -102,12 +101,12 @@ Larbin主要在Linux下进行开发。
 它可能在其他的平台下无法正确编译，但是我将在后续的版本中使其支持更多的平台。
 请向我汇报Larbin在任何平台下的工作情况。
 
-###计划开发
+### 计划开发
 
 * 首先还是要将代码重构一遍。
 * 支持javascript，这将是一个非常庞大的功能。
 
-###联系我
+### 联系我
 
 URL: https://github.com/ictxiangxin/larbin
 
